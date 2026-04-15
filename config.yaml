@@ -1,0 +1,30 @@
+# Driver Monitoring System Configuration
+system:
+  camera_id: 0
+  frame_width: 640
+  frame_height: 480
+  fps: 30
+
+ear:
+  threshold: 0.25
+  consecutive_frames: 48
+  min_ear: 0.2
+  max_ear: 0.4
+
+head_pose:
+  pitch_threshold: 15
+  yaw_threshold: 20
+  roll_threshold: 15
+
+distraction:
+  face_not_visible_time: 2.0
+  looking_away_time: 2.0
+
+alerts:
+  volume: 0.8
+  cooldown_time: 5
+
+logging:
+  enabled: true
+  log_file: "logs/drowsiness_log.csv"
+  save_video: false

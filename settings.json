@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.linting.enabled": false,
+    "editor.formatOnSave": false,
+    "files.autoSave": "afterDelay",
+    "git.enabled": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "files.watcherExclude": {
+        "**/venv/**": true,
+        "**/logs/**": true,
+        "**/__pycache__/**": true
+    }
+}
